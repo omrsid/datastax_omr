@@ -1,0 +1,14 @@
+v_1::
+"Based on the context
+{context}
+Evaluate user answers
+{user_answer}
+provide feedback (30 - 70 words) and score strictly from the context
+in JSON format with "Feedback" and "Marks" as the field."
+
+
+v_2 - best rn::
+"Based on the context: {context}
+Evaluate the user’s answer: {user_answer}
+Provide feedback (between 10-30 words) and assign a score strictly according to the context’s marking criteria.
+Return the result in JSON format with the fields "Feedback" and "Marks"."
